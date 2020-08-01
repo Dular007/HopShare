@@ -1,0 +1,55 @@
+.auth-title {
+	font-weight: 700;
+	margin-top: 0;
+	font-size: x-large;
+}
+.authfy-heading {
+	margin-bottom: 2s0px
+}
+
+.loginForm {
+
+	padding-left: 10px;
+}
+input {
+	border: 1px solid #00AFF5;
+	height: 50px;
+	width: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+	padding: 1.6rem;
+	margin-bottom: 10px;
+}
+
+.forgotPwd {
+	text-align: left;
+	margin-top: 0;
+}
+.lnk-toggler{
+	text-decoration: none!important;
+}
+button {
+	margin-top: 15px;
+	height: 50px;
+	width: 100%;
+	/* background: blue;  */
+    border: none; 
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: 200;
+    font-size: 1rem;
+    text-decoration: none;
+	line-height: 1;
+	
+	 
+}
+.btn-login{
+	background-color: #054752;
+	border-color: #054752
+ }
+.btn-signup {
+	background-color: #00AFF5;
+	border-color: #054752;
+	
+ }
