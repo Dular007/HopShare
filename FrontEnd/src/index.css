@@ -9,6 +9,7 @@
 @import './styles/nav.css';
 /* @import './styles/flaticon.css'; */
 /* @import './styles/font-awesome.min.css'; */
+@import '../src/styles/components/carousel.css';
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,30 @@
+.carousel-control{
+    width: 1000px;
+    height: 100vh;
+    float: right;
+    
+}
+
+.slide-1 {
+    width: 1000px;
+    height: 100vh;
+    background-color: rgb(214, 207, 207);
+}   
+    
+.slide-1__text{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large; 
+    margin: 0 auto 0 auto;
+    color: black;
+
+}
+
+.h3__text {
+    margin: 0 0 100px 0;
+    color: black;
+    font-size: 3rem;
+    /* font-size: x-large; */
+   
+}
