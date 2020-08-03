@@ -1,0 +1,59 @@
+.lnk-toggler{
+	text-decoration: none!important;
+}
+.back-arrow {
+    font-size: 16px;
+}
+
+
+.middle .box {
+    padding: 2px 36px!important;
+    font-size: 10px !important;
+    border: solid 1px #eee;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: all 250ms ease;
+    will-change: transition;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .back-arrow{
+	font-size: 20px;
+    color: #34bc9b;
+    margin-right: 8px;
+}
+.middle input[type="radio"] {
+  display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  background-color: #00AFF5;
+}
+.middle input[type="radio"]:checked + .box span {
+  color: white;
+  transform: translateY(70px);
+}
+.middle input[type="radio"]:checked + .box span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+label {
+	font-weight: 400;
+	position: relative;
+	cursor: pointer;
+	color: #666;
+	padding-left: 24px
+}
+
+.term-policy a {
+    text-decoration: underline;
+    text-align: left;
+}
+
+.small{
+    font-size: 0.8rem;
+    font-weight: 100;
+}

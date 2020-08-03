@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState, useContext} from 'react';
 
 import Button from '../shared/components/FormElements/Button';
 // import Input from '../shared/components/FormElements/Input'
-const InputForm =() =>{
+import {AuthContext} from '../shared/components/Context/auth-context';
+import { Redirect } from 'react-router-dom';
+const LoginInputForm =(props) =>{
+  const auth = useContext(AuthContext);
+  const [isLoginMode, setIsLoginMode] = useState(true);
+
+  // 
 
     return (
         <div>
@@ -31,7 +37,11 @@ const InputForm =() =>{
           <button className="btn-login" type="submit">LOGIN</button>
         </div>
         <div className="form-group">
-          <button className="btn-signup" type="submit">SIGNUP</button>          
+          <button onClick={()=>{
+            // auth.setLoginOrSignUp();
+            // <Redirect to ='/signup' 
+            props.setLoginMode(false) ;
+          }} className="btn-signup" type="submit">SIGNUP</button>          
         </div>
              </form>
               {/* </div>
@@ -43,7 +53,7 @@ const InputForm =() =>{
 }
 
 
-export default InputForm;
+export default LoginInputForm;
 
 // <div className="authfy-login">
 // <!-- panel-login start -->

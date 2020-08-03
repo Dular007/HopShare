@@ -1,14 +1,14 @@
 import React from 'react';
 
 import HeaderImage from './HeaderImage';
-import InputForm from './InputForm'
+import LoginInputForm from './LoginInputForm'
 
-const Login =() =>{
+const Login =(props) =>{
 
     return (
         <div className="login">
             <HeaderImage/>
-            <InputForm />
+            <LoginInputForm setLoginMode={props.setLoginMode}/>
         </div>
     )
 }
