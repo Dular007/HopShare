@@ -5,8 +5,8 @@ import Login from '../components/Login';
 
 // const Stack = createStackNavigator();
 
-import ReactCarousel from '../components/ReactCarousel'
-import SignUp from '../components/SignUp';
+import ReactCarousel from '../components/ReactCarousel';
+import SignUp from '../components/signup/SignUp';
 const WelcomePage =() =>{
 const [isloggedInMode, setisloggedInMode]=useState(true);
     

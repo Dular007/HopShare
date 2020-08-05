@@ -5,7 +5,8 @@ import {BrowserRouter as Router,Route,Switch,Redirect} from 'react-router-dom';
 import {AuthContext} from '../src/shared/components/Context/auth-context';
 
 import WelcomePage from '../src/pages/Welcome'
-import SignUp from './components/SignUp';
+import SignUp from './components/signup/SignUp';
+import SignupStep1 from './components/signup/SignupSteps';
 const App=()=> {
 
   const [isLoggedIn, setIsLoggedIn] =useState(false);
@@ -25,9 +26,9 @@ const App=()=> {
     <Switch>
     <Route path='/' exact>
       <WelcomePage />
-    {/* </Route>
+    </Route>
     <Route path='/signup' exact>
-      <SignUp /> */}
+      <SignupStep1/>
     </Route>
     {/* <Route path='/place/new' exact>
       <NewPlace />

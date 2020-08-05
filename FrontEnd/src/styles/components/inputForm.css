@@ -12,13 +12,14 @@
 	padding-left: 10px;
 }
 input {
-	border: 1px solid #00AFF5;
+	border-radius: 5px;
+	border: solid 1px rgb(206, 198, 198);
 	height: 50px;
 	width: 100%;
     font-size: 1rem;
     font-weight: 300;
 	padding: 1.6rem;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .forgotPwd {
@@ -52,4 +53,10 @@ button {
 	background-color: #00AFF5;
 	border-color: #054752;
 	
+ }
+
+ .form-group-1 {
+	 margin-top: 0;
+	 padding-top: 0;
+	 margin-bottom: 20px;
  }

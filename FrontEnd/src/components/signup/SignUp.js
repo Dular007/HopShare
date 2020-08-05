@@ -1,9 +1,10 @@
 import React from 'react';
 
-import HeaderImage from './HeaderImage';
+import HeaderImage from '../HeaderImage';
 import SignUpInputForm from './SignUpInputForm'
-import ReactCarousel from './ReactCarousel';
-import '../styles/components/signup.css';
+import ReactCarousel from '../ReactCarousel';
+import '../../styles/components/signup.css';
+
 const SignUp =(props) =>{
 
     return (

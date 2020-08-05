@@ -12,7 +12,7 @@ const LoginInputForm =(props) =>{
 
     return (
         <div>
-            <div className="authfy-heading center">
+            <div className="authfy-heading center auth-title-login">
             <h3 className="auth-title">Login to your account</h3>
             </div>
             {/* <div className="row">

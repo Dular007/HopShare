@@ -1,4 +1,16 @@
 .login {
     width: 500px;
     float: left;
+    margin-left: 18px;
+}
+
+.btn-login {
+    background-color: #00AFF5;
+    border: solid 1px #eee;
+    /* background-color: #fff; */
+    border-radius: 8px;
+}
+
+.auth-title-login{
+    margin-bottom: 12px;
 }

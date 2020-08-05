@@ -1,0 +1,63 @@
+.signup-steps {
+    width: 500px;
+    float: left;
+    margin-left: 15px;
+}
+
+.stepper {
+    margin: 5px 2px 5px 2px;
+    color: black;
+    
+}
+.break{
+     padding-left: 10px;
+     width: 90%;
+     height: 20%;
+    /* background-color: turquoise;  */
+    border-top: 0px solid #8c8b8b; 
+    background-color: rgb(221, 212, 212);
+    color: rgb(202, 198, 198);
+    position: relative;
+   
+}
+
+input {
+    width: 90%;
+    margin-left: 0;
+    
+}
+button {
+    width: 90%;
+}
+
+.auth-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.para-desc {
+    margin-top:0;
+    padding-top: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    margin-top:0 ;
+	border-color: #00AFF5!important;
+    background: linear-gradient(45deg, #00AFF5, #337ab7);
+}
+.note{
+	color: #cf882e!important;
+	font-size: 14px!important;
+	text-decoration: none!important;
+}
+.note:before {
+    /* content: "\f05a"; */
+    font-family: FontAwesome;
+    margin-right: 4px;
+}
+.font-awesome-circle{
+    color: #cf882e!important;
+
+}

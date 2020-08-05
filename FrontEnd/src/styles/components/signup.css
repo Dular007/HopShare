@@ -45,7 +45,8 @@ label {
 	position: relative;
 	cursor: pointer;
 	color: #666;
-	padding-left: 24px
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .term-policy a {
@@ -56,4 +57,14 @@ label {
 .small{
     font-size: 0.8rem;
     font-weight: 100;
+    color: #666;
 }
+
+.btn-signup {
+  background-color: #00AFF5;
+  border: solid 1px #eee;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  
+}
+
