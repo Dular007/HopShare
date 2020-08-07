@@ -61,3 +61,43 @@ button {
     color: #cf882e!important;
 
 }
+
+.auth-title__ride{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ride-detail{
+
+    padding-top: 8px ;
+    
+}
+
+.ride-car  {
+    background : transparent;
+    border: solid 1px #00AFF5;
+    border-radius: 50px;
+    color:  #00AFF5;
+    padding-top: 12px ;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.prev-step,.next-step{
+    padding-top: 20px; 
+    width: 20%;
+   
+}
+
+.prev-btn, .next-btn {
+    border-radius:  8px;
+}
+.prev-step {
+    float: left;
+    margin-left: 250px;
+}
+.next-step {
+    float: right;
+    margin-right: 40px
+}

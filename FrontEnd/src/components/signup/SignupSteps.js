@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 
 import ReactCarousel from "../../components/ReactCarousel";
 import "../../styles/components/SignupSteps.css";
@@ -10,46 +10,31 @@ import angleDoubleLeft from '@iconify/icons-uil/angle-double-left';
 // import -- npm install --save-dev @fortawesome/fontawesome-free
 import '@fortawesome/fontawesome-free/css/all.min.css';
 // fa-info-circle
+
+import ReactStepper from '../shared/ReactStepper';
+import SignupStep1 from "./SignupStep1";
+import SignupStep2 from './SignupStep2';
+import SignupStep3 from './SignupStep3';
+import { useState, useContext } from "react";
+
 const SignupSteps = () => {
+const [step,setStep] = useState(0);
+
   return (
     <>
       <div className="signup-steps">
         <div class="authfy-heading">
-        <div className="stepper">
-      <Stepper  steps={ [{}, {}, {}, {}] } activeStep={ 0 } />
-      
-        </div>
+        <ReactStepper step={step}/>
         <br/>
-        {/* <div className="break">
-        <hr/>
-        </div> */}
-          <div className="loginForm"> 
-          <h3 class="auth-title">Hello Omveer !</h3>
-          <p className="para-desc">
-            98% users prefer to travel with verified users. Verify you org.email
-          </p>
-          </div>
-          <form name="loginForm" class="loginForm" action="index.html" method="">
-                                 <div class="form-group">
-                                  <input type="text"  name="org-name" placeholder="Organisation Name"/>
-                                </div>
-                                <div class="form-group">
-                                  <input type="Email"  name="mailid" placeholder="Office Email Address"/>
-                                </div>
-                                <div class="row remember-row">
-                                    <p>
-                                   <i class="fas fa-exclamation-circle font-awesome-circle"></i>
-                                                           
-                                      <a class="lnk-toggler note" href="#">  We don't spam. it's only to send email OTP</a>
-                                    </p>
-                                
-                                </div> 
-                                <Button  className="btn btn-primary"  type="submit">CONTINUE</Button>
-                              </form>
+      {step===0 && <SignupStep1 setStep={setStep}/>   }
+                                   
+         {step === 1 && <SignupStep2 setStep={setStep}/>}
 
-                              
-        </div>
-      </div>
+         {step === 2 && <SignupStep3 setStep={setStep}/>}
+
+
+         </div>
+         </div>
       <ReactCarousel />
     </>
   );
