@@ -10,6 +10,8 @@
 /* @import './styles/flaticon.css'; */
 /* @import './styles/font-awesome.min.css'; */
 @import '../src/styles/components/carousel.css';
+/* import '../../styles/components/signup.css'; */
+@import '../src/styles/components/signup.css';
 * {
   box-sizing: border-box;
 }

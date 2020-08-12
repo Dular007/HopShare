@@ -19,11 +19,11 @@ const LoginInputForm =(props) =>{
                 <div className="col-xs-12 col-sm-12"> */}
             <form name="loginForm" className="loginForm"  method="">
                  {/* <div className="form-group"> */}
-                     <input type="number" className="input-number" maxlength="10" name="phone" placeholder="Mobile Number"/>
+                     <input type="number" className="input-number full" maxlength="10" name="phone" placeholder="Mobile Number"/>
                  {/* </div> */}
         <div className="form-group">
 
-          <input type="password" className="form-control password" name="password" placeholder="Password"/>
+          <input type="password" className="form-control password full" name="password" placeholder="Password"/>
         
          
         </div>

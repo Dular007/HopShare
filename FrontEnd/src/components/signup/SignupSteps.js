@@ -15,6 +15,7 @@ import ReactStepper from '../shared/ReactStepper';
 import SignupStep1 from "./SignupStep1";
 import SignupStep2 from './SignupStep2';
 import SignupStep3 from './SignupStep3';
+import VerifyOtp from './VerifyOtp';
 import { useState, useContext } from "react";
 
 const SignupSteps = () => {
@@ -32,7 +33,10 @@ const [step,setStep] = useState(0);
 
          {step === 2 && <SignupStep3 setStep={setStep}/>}
 
+          
+          {step === 3 && <VerifyOtp  setStep={setStep}/>}
 
+          
          </div>
          </div>
       <ReactCarousel />

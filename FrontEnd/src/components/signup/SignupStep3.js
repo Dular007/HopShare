@@ -1,6 +1,9 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import PrevNext from "./PrevNext";
+import ImageUpload from './ImageUpload';
+import AvatarUpload from './AvatarUpload';
+// import bootstrap from
 
 const SignupStep3 = (props) => {
   return (
@@ -42,14 +45,23 @@ const SignupStep3 = (props) => {
               </p>
             </div>
           </div> */}
+          <div class="avatar-preview">
+                                          <div id="imagePreview">
+                                              {/* <img src="/public/images/avatar.png" width="500" height="600"/> */}
+                                          </div>
+                                      </div>
+          <ImageUpload />
+          {/* <AvatarUpload /> */}
+      
           <p>
             <i class="fas fa-exclamation-circle font-awesome-circle"></i>
 
             <a class="lnk-toggler note" href="#">
-              {" "}
+              
               Profile picture is mandatory for profile verification
             </a>
           </p>
+          
           <Button
             onClick={() => {
               props.setStep(3);

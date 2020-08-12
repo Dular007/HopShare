@@ -12,10 +12,10 @@ const SignupStep1 = (props) =>{
         </div>
         <form name="loginForm" class="loginForm" action="index.html" method="">
                                <div class="form-group">
-                                <input type="text"  name="org-name" placeholder="Organisation Name"/>
+                                <input type="text"  name="org-name" className="full" placeholder="Organisation Name"/>
                               </div>
                               <div class="form-group">
-                                <input type="Email"  name="mailid" placeholder="Office Email Address"/>
+                                <input type="Email"  name="mailid" className="full"  placeholder="Office Email Address"/>
                               </div>
                               <div class="row remember-row">
                                   <p>

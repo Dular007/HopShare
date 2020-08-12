@@ -31,7 +31,7 @@ const SignupStep2 = (props) => {
         <div className="form-group">
           <input
             type="text"
-            className="form-control"
+            className="form-control full"
             name="home-location"
             placeholder="Set Home Location"
           />
@@ -39,7 +39,7 @@ const SignupStep2 = (props) => {
         <div className="form-group">
           <input
             type="text"
-            className="form-control"
+            className="form-control full"
             name="set-time"
             placeholder="Set Time"
           />
@@ -47,7 +47,7 @@ const SignupStep2 = (props) => {
         <div className="form-group">
           <input
             type="text"
-            className="form-control"
+            className="form-control full"
             name="office-location"
             placeholder="Set Office Location"
           />
@@ -55,7 +55,7 @@ const SignupStep2 = (props) => {
         <div className="form-group">
           <input
             type="text"
-            className="form-control"
+            className="form-control full"
             name="leave-office"
             placeholder="Leave Office Around"
           />

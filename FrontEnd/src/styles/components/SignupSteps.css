@@ -101,3 +101,97 @@ button {
     float: right;
     margin-right: 40px
 }
+.avatar-img {
+   /* border-radius: 50px; */
+   width: 200px;
+   height: 200px;
+   border-radius: 50px;
+   margin-left: 60px;
+   margin-top: 0px;
+   margin-bottom: 30px;
+   /* float: left;  */
+}
+
+.avatar-edit {
+    float: right;
+    width: 1px;
+    height: 1px;
+    margin-bottom: 0px;
+    /* border-radius: 20px; */
+}
+
+.avtar-upload{
+    
+    margin-top: 0;
+    padding-top: 0;
+    width: 60px;
+    height: 10px;
+}
+
+ .fileContainer {
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    background:red;
+    
+}
+/*
+
+.chooseFileButton {
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+.fileUploader{
+    padding: 0;
+    margin: 0;
+}
+
+
+.fileContainer .chooseFileButton {
+    padding: 0;
+    margin: 0;
+    
+} */
+
+.fileContainer .uploadPictureContainer img.uploadPicture {
+    border-radius: 50px;
+    width: 1050%;
+}
+.accept-img{
+    width: 100px;
+    margin-left: 340px;
+    background: #00AFF5 ;
+    border-radius: 8px;
+}
+.img-upld{
+    /* color:red; */
+    width:20px;
+    
+}
+
+.authfy-heading-verify{
+    margin-left: 8px;
+}
+
+.text-otp{
+    width: 50px;
+   
+}
+
+.text-otp-input{
+    float: left;
+}
+.text-otp-input1{
+    float: right;
+}
+
+.otpIp{
+    background: rgb(243, 243, 247);
+   width: 300px;
+   height: 100px;
+   padding: 0;
+   margin: 10px
+}
+
