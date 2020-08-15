@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 import PrevNext from "./PrevNext";
 import OtpInputs from "./OtpInputs";
@@ -25,11 +26,12 @@ const VerifyOtp = (props) => {
         </a>
       </p>
       <div className="form-group">
-        <button className="btn btn-lg btn-primary btn-block" type="submit">
+      <Link to="/dashboard">
+        <button className="btn btn-lg btn-primary btn-block btn-signup" type="button">
           CONTINUE
-        </button>
+        </button>  </Link>
       </div>
-      <PrevNext setStep={props.setStep} step={2} />
+      <PrevNext setStep={props.setStep} step={3} />
     </div>
   );
 };

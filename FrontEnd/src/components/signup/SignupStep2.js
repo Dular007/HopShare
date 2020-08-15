@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import PrevNext from "./PrevNext";
-
+import ReactModal from '../shared/Modal';
+import OfferRideModal from './OfferRideModal';
 const SignupStep2 = (props) => {
   return (
     <>
@@ -11,9 +12,12 @@ const SignupStep2 = (props) => {
       </div>
       <form name="ride-detail" className="loginForm" method="">
         <div className="form-group  ride-detail">
-          <Button className="ride-car">
+          {/* <Button className="ride-car" onClick={openModal}>
             <i className="fa fa-users"></i> | Offer Rides
           </Button>
+         
+        <ReactModal /> */}
+        <OfferRideModal className="Offer-modal" />
         </div>
         <div className="form-group  ride-detail">
           <Button className="ride-car">

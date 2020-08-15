@@ -7,6 +7,8 @@ import {AuthContext} from '../src/shared/components/Context/auth-context';
 import WelcomePage from '../src/pages/Welcome'
 import SignUp from './components/signup/SignUp';
 import SignupStep1 from './components/signup/SignupSteps';
+// import RideInfo from './components/RideInfo';
+import Dashboard from './pages/Dashboard';
 const App=()=> {
 
   const [isLoggedIn, setIsLoggedIn] =useState(false);
@@ -29,6 +31,9 @@ const App=()=> {
     </Route>
     <Route path='/signup' exact>
       <SignupStep1/>
+    </Route>
+    <Route path='/dashboard' exact>
+      <Dashboard/>
     </Route>
     {/* <Route path='/place/new' exact>
       <NewPlace />

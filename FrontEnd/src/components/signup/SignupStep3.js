@@ -18,33 +18,7 @@ const SignupStep3 = (props) => {
       </div>
       <div>
         <form name="loginForm" class="loginForm" action="index.html" method="">
-          {/* <div class="form-group">
-            <div class="avatar-upload">
-              <div class="avatar-edit">
-                <input
-                  type="file"
-                  id="imageUpload"
-                  accept=".png, .jpg, .jpeg"
-                />
-                <label for="imageUpload"></label>
-              </div>
-              <div class="avatar-preview">
-                <div
-                  id="imagePreview"
-                  style="background-image: url(images/avatar.png)"
-                ></div>
-              </div>
-            </div>
-          </div>
-          <div class="row remember-row">
-            <div class="col-xs-12">
-              <p class="text-center">
-                <a class="lnk-toggler note" href="#">
-                  Profile picture is mandatory for profile verification
-                </a>
-              </p>
-            </div>
-          </div> */}
+         
           <div class="avatar-preview">
                                           <div id="imagePreview">
                                               {/* <img src="/public/images/avatar.png" width="500" height="600"/> */}

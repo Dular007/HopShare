@@ -18,6 +18,7 @@ import SignupStep3 from './SignupStep3';
 import VerifyOtp from './VerifyOtp';
 import { useState, useContext } from "react";
 
+
 const SignupSteps = () => {
 const [step,setStep] = useState(0);
 
@@ -27,7 +28,7 @@ const [step,setStep] = useState(0);
         <div class="authfy-heading">
         <ReactStepper step={step}/>
         <br/>
-      {step===0 && <SignupStep1 setStep={setStep}/>   }
+      {step===0 && <SignupStep1 setStep={setStep}/>    }
                                    
          {step === 1 && <SignupStep2 setStep={setStep}/>}
 
@@ -35,6 +36,8 @@ const [step,setStep] = useState(0);
 
           
           {step === 3 && <VerifyOtp  setStep={setStep}/>}
+
+         
 
           
          </div>

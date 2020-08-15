@@ -195,3 +195,44 @@ button {
    margin: 10px
 }
 
+.offer-car__btn{
+    width: 44%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 7px;
+     color: #868E96;
+    border: solid 1px #c2c6c9; 
+    margin-bottom: 20px;
+   
+}
+.offer-car__btn:hover {
+ 
+    border-color: #00AFF5!important;
+    background: linear-gradient(45deg, #00AFF5, #337ab7);
+    color: white;
+}
+.offer-ride__body{
+    margin-left: 22px;
+    
+}
+
+.car-type{
+    
+    display: block;
+    width: 90%;
+    height: 55px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.modal-btn{
+    border-radius: 5px;
+    margin-top: 15px;
+}
